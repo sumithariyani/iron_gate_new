@@ -21,6 +21,7 @@ const get_cat = async () =>{
                   
                 const options = { headers:{ "Content-Type": "multipart/form-data",
                 "Accept": "application/json",
+                "Access-Control-Allow-Origin": "*",
                 "type": "formData"}};
                    console.log(formData); 
                 try{
