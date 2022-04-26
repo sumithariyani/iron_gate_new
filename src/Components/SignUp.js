@@ -39,7 +39,9 @@ var formdata = formdata+ '&area='+area+'&zipcode='+zipcode+'&building_name='+bui
 
 axios({
   method: 'post',
+  // url: 'https://cws.in.net/iron_gate/admin/api/register',
   url: '/iron_gate/admin/api/register',
+  headers: headers,
   data: formdata
 })
       .then(response => {
