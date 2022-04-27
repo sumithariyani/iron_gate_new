@@ -19,8 +19,9 @@ const get_cat = async () =>{
                let name = 'a250bcr552s'   
               formData.append("token",name );
                   
-                const options = { headers:{ "Content-Type": "multipart/form-data",
-                'Access-Control-Allow-Origin': '*',
+                const options = {headers:{ 'Access-Control-Allow-Origin': '*',
+                 "Content-Type": "multipart/form-data",
+                 "changeOrigin": true,
                 "Accept": "application/json",
                 'referrerPolicy': 'no-referrer-when-downgrade',
                 'Access-Control-Allow-Headers': 'Accept',
@@ -28,7 +29,6 @@ const get_cat = async () =>{
                    console.log(formData); 
                 try{
                   let response = await axios.post('https://cws.in.net/iron_gate/admin/api/get_category',formData,options);
-                
                   return   response.data;
                 } catch(err){ console.error(err); toast.error('some errror'); return false;  }
              }  
