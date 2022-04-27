@@ -21,12 +21,11 @@ const get_cat = async () =>{
                   
                 const options = { headers:{ "Content-Type": "multipart/form-data",
                 "Accept": "application/json",
-                "Access-Control-Allow-Origin": "*",
+                'referrerPolicy': 'no-referrer-when-downgrade',
                 "type": "formData"}};
                    console.log(formData); 
                 try{
-                  // let response = await axios.post('/iron_gate/admin/api/get_category',formData,options);
-                  let response = await axios.post('https://cws.in.net/iron_gate/admin/api/get_category',formData,options);
+                  let response = await axios.post('/iron_gate/admin/api/get_category',formData,options);
                 
                   return   response.data;
                 } catch(err){ console.error(err); toast.error('some errror'); return false;  }
