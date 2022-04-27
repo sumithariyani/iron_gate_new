@@ -23,6 +23,7 @@ const get_cat = async () =>{
                  "Content-Type": "multipart/form-data",
                  "changeOrigin": true,
                 "Accept": "application/json",
+                'Referer':'https://cws.in.net',
                 'referrerPolicy': 'no-referrer-when-downgrade',
                 'Access-Control-Allow-Headers': 'Accept',
                 "type": "formData"}};
