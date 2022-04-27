@@ -29,7 +29,7 @@ const get_cat = async () =>{
                 "type": "formData"}};
                    console.log(formData); 
                 try{
-                  let response = await axios.post('https://cws.in.net/iron_gate/admin/api/get_category',formData,options);
+                  let response = await axios.post('https://hippotheftprotection.in/burp/api/user',formData,options);
                   return   response.data;
                 } catch(err){ console.error(err); toast.error('some errror'); return false;  }
              }  
