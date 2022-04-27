@@ -22,6 +22,7 @@ const get_cat = async () =>{
                 const options = { headers:{ "Content-Type": "multipart/form-data",
                 "Accept": "application/json",
                 'referrerPolicy': 'no-referrer-when-downgrade',
+                'Access-Control-Allow-Headers': 'Accept',
                 "type": "formData"}};
                    console.log(formData); 
                 try{
