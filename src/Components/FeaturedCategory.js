@@ -20,6 +20,7 @@ const get_cat = async () =>{
               formData.append("token",name );
                   
                 const options = { headers:{ "Content-Type": "multipart/form-data",
+                'Access-Control-Allow-Origin': '*',
                 "Accept": "application/json",
                 'referrerPolicy': 'no-referrer-when-downgrade',
                 'Access-Control-Allow-Headers': 'Accept',
