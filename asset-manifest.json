@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/iron_gate_new/static/css/main.a106fed0.css",
-    "main.js": "/iron_gate_new/static/js/main.9eb8c002.js",
+    "main.js": "/iron_gate_new/static/js/main.32b2f87f.js",
     "index.html": "/iron_gate_new/index.html",
     "static/media/slick.svg": "/iron_gate_new/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/iron_gate_new/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/iron_gate_new/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/iron_gate_new/static/media/slick.295183786cd8a1389865.woff",
     "main.a106fed0.css.map": "/iron_gate_new/static/css/main.a106fed0.css.map",
-    "main.9eb8c002.js.map": "/iron_gate_new/static/js/main.9eb8c002.js.map"
+    "main.32b2f87f.js.map": "/iron_gate_new/static/js/main.32b2f87f.js.map"
   },
   "entrypoints": [
     "static/css/main.a106fed0.css",
-    "static/js/main.9eb8c002.js"
+    "static/js/main.32b2f87f.js"
   ]
 }
